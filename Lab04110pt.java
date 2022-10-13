@@ -1,13 +1,9 @@
-// Lab04bvst.java
-// The AWT Graphics Program
-// This is the student, starting version of Lab04b.
-
 
 import java.awt.*;
 import java.applet.*;
 
 
-public class Lab04bvst extends Applet
+public class Lab04110pt extends Applet
 {
 
     public void paint(Graphics g)
@@ -25,14 +21,14 @@ public class Lab04bvst extends Applet
 
 
         // DRAW SPHERE
-        g.drawOval(625,75,25,175);
-        g.drawOval(600,75,75,175);
-        g.drawOval(575,75,125,175);
-        g.drawOval(550,75,175,175);
-        g.drawOval(550,150,175,25);
-        g.drawOval(550,125,175,75);
-        g.drawOval(550,100,175,125);
-        g.drawOval(550,75,175,175);
+        g.drawOval(175,125,25,175);
+        g.drawOval(150,125,75,175);
+        g.drawOval(125,125,125,175);
+        g.drawOval(100,125,175,175);
+        g.drawOval(100,200,175,25);
+        g.drawOval(100,175,175,75);
+        g.drawOval(100,150,175,125);
+        g.drawOval(100,125,175,175);
 
 
         // DRAW INSCRIBED/CIRCUMSCRIBED TRIANGLE
